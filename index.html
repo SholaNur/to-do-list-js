@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todolist</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script>
+        let addToDoButton = document.getElementById('addToDo');
+        let addToDoContainer = document.getElementById('toDoContainer');
+        let inputField = document.getElementById('inputField');
+
+        // first we stored now we are making a functional with DOM
+        addToDoButton.addEventListener('click', function() {
+            let paragraph = document.createElement('p');
+            // #7 means everytime when we click new paragraph will be created;
+            // then we need to append it to toDoContainer:
+            addToDoContainer.appendChild('paragraph');
+            paragraph.innerText = inputField.value;
+            // here we are adding paragraph-style;
+            paragraph.classList.add('paragraph-styling');
+            inputField.value = '';
+            paragraph.addEventListener('click', function() {
+                paragraph.style.textDecoration = 'line-through'
+                d
+            });
+
+        });
+    </script> -->
+
+
+</head>
+
+<body>
+
+    <h1>To Do List</h1>
+    <!-- here we are creating a container where everything going to be inside -->
+    <div class="container">
+        <input id="inputField" type="text">
+        <button id="addToDo">+</button>
+        <div class="to-dos" id="toDoContainer"></div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
